@@ -1,0 +1,11 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Spread",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server --files '*.html, css/*.css, *.css, js/*.js'"
+  },
+  "author": "",
+  "license": "ISC"
+}
