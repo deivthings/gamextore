@@ -1,12 +1,13 @@
 {
-    "name": "GameXtore",
-    "short_name": "GameXtore",
     "theme_color": "#9F44D3",
     "background_color": "#9F44D3",
     "display": "standalone",
-    "start_url": "/",
+    "scope": "https://deivthings.github.io/gamextore/",
+    "start_url": "https://deivthings.github.io/gamextore/",
     "orientation": "portrait",
     "app_name": "GameXtore",
+    "name": "GameXtore",
+    "short_name": "GameXtore",
     "description": "Android Games Store",
     "icons": [
         {
