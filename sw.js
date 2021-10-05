@@ -1,4 +1,12 @@
-self.addEventListener("fetch", event => {})
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    fetch(event.request)
+      .then(res => {
+        console.log(res)
+        return res
+      })
+  )
+})
 
 /* self.addEventListener('install', event => {
   console.log('isntalling', event)
