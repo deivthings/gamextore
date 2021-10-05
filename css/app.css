@@ -164,3 +164,17 @@ footer svg {
   color: #b787e7;
 }
 
+.pwa-install-prompt {
+  margin-bottom: 1rem;
+}
+
+.pwa-install-prompt button{ 
+  border: 0;
+  padding: 1rem;
+  border-radius:20px;
+  width: 100%;
+  font-weight: bold;
+  background-color: #b787e7;
+  color: white;
+}
+
