@@ -2,7 +2,7 @@
     "theme_color": "#9F44D3",
     "background_color": "#9F44D3",
     "display": "standalone",
-    "scope": "/",
+    "scope": "index.html",
     "start_url": "index.html",
     "orientation": "portrait",
     "app_name": "GameXtore",
