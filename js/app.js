@@ -1,4 +1,17 @@
 
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("../sw.js")
+      .then(function (registration) {
+        console.log("success load");
+      })
+      .catch(function (err) {
+        console.log(err);
+      });
+   }
+
+
+/* 
 var url = window.location.href;
 var swLocation = '/twittor/sw.js';
 // variable que contendrá el registro del sw
@@ -23,7 +36,7 @@ if ( navigator.serviceWorker ) {
             })
     })
 }
-
+ */
 
 function verificaSuscripcion () {
   console.log('verifica')
