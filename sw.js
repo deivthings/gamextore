@@ -1,5 +1,6 @@
+self.addEventListener("fetch", event => {})
 
-self.addEventListener('install', event => {
+/* self.addEventListener('install', event => {
   console.log('isntalling', event)
 
   const shellCache = caches.open('caché-shell-1')
@@ -36,4 +37,4 @@ self.addEventListener('fetch', event => {
     .then(res => res ? res : fetch(event.request))
 
   event.respondWith( resp )
-})
+}) */
